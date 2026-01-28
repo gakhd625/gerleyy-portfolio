@@ -1,0 +1,27 @@
+'use client'
+
+import { portfolioData } from '@/data/portfolio'
+import WorkExperience from './sections/WorkExperience'
+import Education from './sections/Education'
+import Skills from './sections/Skills'
+import Projects from './sections/Projects'
+import Hackathons from './sections/Hackathons'
+import Certifications from './sections/Certifications'
+import Contact from './sections/Contact'
+import Resume from './sections/Resume'
+
+export default function Content() {
+  return (
+    <div className="w-full px-6 md:px-12 py-8 md:py-12">
+      {/* <Resume /> */}
+      <WorkExperience />
+      <Education />
+      <Skills />
+      <Projects />
+      <Hackathons />
+      <Certifications />
+      <Contact />
+    </div>
+  )
+}
+
