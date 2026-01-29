@@ -4,6 +4,9 @@ import './globals.css'
 export const metadata: Metadata = {
   title: 'Gerlie - Software Engineer Portfolio',
   description: 'Cybersecurity and Software Engineer focused on building secure, scalable systems and protecting applications from modern threats.',
+  icons: {
+    icon: '/favicon.ico',
+  },
 }
 
 export default function RootLayout({
