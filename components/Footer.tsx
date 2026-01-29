@@ -15,8 +15,22 @@ export default function Footer() {
           className="text-black hover:text-gray-600 transition-colors"
           aria-label="Home"
         >
-          🏠
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            className="h-5 w-5"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+            strokeWidth={2}
+          >
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              d="M3 9.75L12 4l9 5.75V20a1 1 0 01-1 1h-5v-6H9v6H4a1 1 0 01-1-1V9.75z"
+            />
+          </svg>
         </button>
+
         <a
           href="/resume.pdf"
           target="_blank"
@@ -24,8 +38,27 @@ export default function Footer() {
           className="text-black hover:text-gray-600 transition-colors"
           aria-label="Resume"
         >
-          📄
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            className="h-5 w-5"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+            strokeWidth={2}
+          >
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              d="M7 3h6l5 5v13a1 1 0 01-1 1H7a1 1 0 01-1-1V4a1 1 0 011-1z"
+            />
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              d="M13 3v5h5"
+            />
+          </svg>
         </a>
+
         <a
           href={portfolioData.social.github}
           target="_blank"

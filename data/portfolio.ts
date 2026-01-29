@@ -95,34 +95,34 @@ export const portfolioData = {
       thumbnail: "/projects/routewise.png"
     },
     {
-      title: "Bilis Delivery",
-      date: "June 2024 - Present",
-      description: "Bilis Delivery is a logistics service that focuses on fast and efficient delivery of various items to your doorstep. This project is built with Laravel and Flutter, providing a web and android application for the...",
-      technologies: ["Flutter", "Dart", "Laravel", "MySQL", "Firebase"],
+      title: "PNHMS",
+      date: "August 2025 - October 2025",
+      description: "A web-based accounting and financial dashboard system for Passerelles Numeriques Philippines designed to automate manual financial processes for Passerelles Numériques Philippines. It improves accuracy, efficiency, and financial visibility through centralized data management and real-time dashboards.",
+      technologies: ["Bootstrap", "JavaScript", "Laravel", "MySQL", "PHP"],
       links: {
-        website: "https://bilisdelivery.com"
+        website: "https://pnhms.com"
       },
-      thumbnail: "/bilis.jpg"
+      thumbnail: "/projects/PNPHMS.png"
     },
     {
-      title: "SentiAI",
-      date: "April 2024",
+      title: "Dailyarc",
+      date: "December 2025",
       description: "It is capable of analyzing and classifying the sentiment of text data into positive, negative, or neutral categories.",
-      technologies: ["Python", "JavaScript", "HTML", "CSS"],
+      technologies: ["C#", "JavaScript", "Bootstrap", ".NET Core"],
       links: {
         source: "https://github.com/sentiai"
       },
-      thumbnail: "/sentiai.jpg"
+      thumbnail: "/projects/dailyarc.png"
     },
     {
-      title: "Lyons Global",
-      date: "February 2024",
-      description: "Lyons Global is the official website of Lyons Global™. The website is built with WordPress and features a custom theme, custom post types, and custom fields. Our team at Develop Kreativity redesigned the...",
-      technologies: ["WordPress"],
+      title: "PicJourni – Travel & Memory Journal",
+      date: "April 2025",
+      description: "PicJourni is a web app that lets users pin the places they’ve visited, capture photos, and write stories. It provides an interactive map to visualize journeys and a simple, beautiful way to relive every trip.",
+      technologies: ["Firebase", "Next.js", "TypeScript", "CSS"],
       links: {
-        website: "https://lyonsglobal.com"
+        website: "https://pic-journi.vercel.app/"
       },
-      thumbnail: "/lyons.jpg"
+      thumbnail: "/projects/picjourni.png"
     }
   ],
 
