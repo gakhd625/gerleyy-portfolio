@@ -146,7 +146,7 @@ export const portfolioData = {
     {
       title: "DOST: Innovation Technology Transfer Summit Visayas 2024",
       date: "December 3, 2024",
-      location: "Marco Polo Plaza, Cebu City, PH",
+      location: "Marco Polo Hotel, Cebu City, PH",
       description: "e-PARA is a Cebu-developed digital commuting solution designed to improve daily public transportation by reducing uncertainty in waiting times, routes, and traffic conditions. Built with local commuters and drivers in mind, it leverages technology to optimize jeepney and bus travel, making urban mobility in Cebu.",
       award: "TOP 10 Finalist (out of 72 teams)",
       logo: "/hackathons-logo/DOST.jpg"
