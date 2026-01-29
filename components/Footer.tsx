@@ -9,10 +9,10 @@ export default function Footer() {
 
   return (
     <footer className="fixed bottom-4 left-1/2 transform -translate-x-1/2 z-50">
-      <div className="bg-black border border-white rounded-full px-4 py-2 flex items-center gap-4">
+      <div className="bg-white border border-black rounded-full px-4 py-2 flex items-center gap-4 shadow-lg">
         <button
           onClick={scrollToTop}
-          className="text-white hover:text-gray-300 transition-colors"
+          className="text-black hover:text-gray-600 transition-colors"
           aria-label="Home"
         >
           🏠
@@ -21,7 +21,7 @@ export default function Footer() {
           href="/resume.pdf"
           target="_blank"
           rel="noopener noreferrer"
-          className="text-white hover:text-gray-300 transition-colors"
+          className="text-black hover:text-gray-600 transition-colors"
           aria-label="Resume"
         >
           📄
@@ -30,7 +30,7 @@ export default function Footer() {
           href={portfolioData.social.github}
           target="_blank"
           rel="noopener noreferrer"
-          className="text-white hover:text-gray-300 transition-colors"
+          className="text-black hover:text-gray-600 transition-colors"
           aria-label="GitHub"
         >
           <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
@@ -41,7 +41,7 @@ export default function Footer() {
           href={portfolioData.social.linkedin}
           target="_blank"
           rel="noopener noreferrer"
-          className="text-white hover:text-gray-300 transition-colors"
+          className="text-black hover:text-gray-600 transition-colors"
           aria-label="LinkedIn"
         >
           <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
@@ -52,7 +52,7 @@ export default function Footer() {
           href={portfolioData.social.twitter}
           target="_blank"
           rel="noopener noreferrer"
-          className="text-white hover:text-gray-300 transition-colors"
+          className="text-black hover:text-gray-600 transition-colors"
           aria-label="Twitter"
         >
           <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
@@ -63,7 +63,7 @@ export default function Footer() {
           href={portfolioData.social.instagram}
           target="_blank"
           rel="noopener noreferrer"
-          className="text-white hover:text-gray-300 transition-colors"
+          className="text-black hover:text-gray-600 transition-colors"
           aria-label="Instagram"
         >
           <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
@@ -74,7 +74,7 @@ export default function Footer() {
           href={portfolioData.social.tiktok}
           target="_blank"
           rel="noopener noreferrer"
-          className="text-white hover:text-gray-300 transition-colors"
+          className="text-black hover:text-gray-600 transition-colors"
           aria-label="TikTok"
         >
           <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
@@ -82,13 +82,13 @@ export default function Footer() {
           </svg>
         </a>
         <button
-          className="text-white hover:text-gray-300 transition-colors"
+          className="text-black hover:text-gray-600 transition-colors"
           aria-label="Toggle theme"
         >
           ☀️
         </button>
         <button
-          className="text-white hover:text-gray-300 transition-colors"
+          className="text-black hover:text-gray-600 transition-colors"
           aria-label="Chat"
         >
           💬

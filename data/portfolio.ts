@@ -128,28 +128,28 @@ export const portfolioData = {
 
   hackathons: [
     {
-      title: "USPF CCS Days 2025",
-      date: "March 14th, 2025",
-      location: "Cebu City, PH",
-      description: "Developed TESTify, an AI exam proctoring system with facial and behavioral analysis for Canvas LMS using Python, OpenAI, and OpenCV at the USPF CCS Days 2025.",
-      award: "Hackathon Champion / Best Innovative Solution",
-      logo: "🏆"
+      title: "National AI Student Challenge 2025- AWS Regional LLM League",
+      date: "March 29, 2025",
+      location: "Online/Singapore",
+      description: "Participated as one of the student innovators representing the Philippines in the National AI Student Challenge 2025, specifically in the AWS Regional LLM League. The competition brought together aspiring AI practitioners to explore cutting-edge applications of large language models (LLMs). ",
+      award: "",
+      logo: "/hackathons-logo/ai-singapore.png"
     },
     {
-      title: "USPF CCS Days 2023",
-      date: "December 9th, 2023",
+      title: "CodeRED Hackathon",
+      date: "May 24-25, 2025",
       location: "Cebu City, PH",
-      description: "Developed CERTify, an AI-integrated academic record authentication system, at the USPF CCS Days 2023.",
-      award: "Hackathon Champion / Most Promising Innovation / Best in Logo",
-      logo: "🏆"
+      description: "AI-powered Chrome Extension that protects children in online games by monitoring real-time chat to detect grooming, cyberbullying, and emotional abuse.",
+      award: "2nd Place / Most Promising Innovation",
+      logo: "/hackathons-logo/bidlisisw.png"
     },
     {
-      title: "TCS Empowers goIT",
-      date: "November 8th - 12th, 2023",
-      location: "Cebu City, PH",
-      description: "Led a team of three senior high school students in developing TrackTrace, a COVID-19 digital contact tracing application.",
-      award: "3rd Place",
-      logo: "🥉"
+      title: "DOST: Innovation Technology Transfer Summit Visayas 2024",
+      date: "December 3, 2024",
+      location: "Marco Polo Plaza, Cebu City, PH",
+      description: "e-PARA is a Cebu-developed digital commuting solution designed to improve daily public transportation by reducing uncertainty in waiting times, routes, and traffic conditions. Built with local commuters and drivers in mind, it leverages technology to optimize jeepney and bus travel, making urban mobility in Cebu.",
+      award: "TOP 10 Finalist (out of 72 teams)",
+      logo: "/hackathons-logo/DOST.jpg"
     }
   ],
 
