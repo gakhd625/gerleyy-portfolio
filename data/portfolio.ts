@@ -181,11 +181,11 @@ export const portfolioData = {
   },
 
   social: {
-    github: "https://github.com/dnachavez",
-    // linkedin: "https://linkedin.com/in/dnachavez",
-    // twitter: "https://twitter.com/dnachavez",
-    // instagram: "https://instagram.com/dnachavez",
-    // tiktok: "https://tiktok.com/@dnachavez"
+    github: "https://github.com/gakhd625",
+    linkedin: "https://www.linkedin.com/in/gerlie-ann-daga-as-326554305/",
+    twitter: "https://twitter.com/gakhd625",
+    instagram: "https://instagram.com/gakhd625",
+    tiktok: "https://tiktok.com/@gakhd625"
   }
 }
 
