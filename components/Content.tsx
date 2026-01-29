@@ -12,7 +12,7 @@ import Resume from './sections/Resume'
 
 export default function Content() {
   return (
-    <div className="w-full px-6 md:px-12 py-8 md:py-12">
+    <div className="w-full px-6 md:pl-6 md:pr-8 py-8 md:py-10">
       {/* <Resume /> */}
       <WorkExperience />
       <Education />

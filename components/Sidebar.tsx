@@ -27,22 +27,22 @@ export default function Sidebar() {
   }
 
   return (
-    <div className="w-full md:w-1/3 md:sticky md:top-0 md:h-screen flex flex-col pl-6 pr-6 md:pl-8 md:pr-10 py-8 md:py-12">
+    <div className="w-full md:w-1/2 md:sticky md:top-0 md:h-screen flex flex-col pl-6 pr-6 md:pl-8 md:pr-4 py-8 md:py-10">
       {/* Header + Profile (uses empty space on md+ like your Dan example) */}
-      <div className="mb-8 flex flex-col md:flex-row md:items-start md:justify-between md:gap-8">
-        <div className="min-w-0">
-          <h1 className="text-4xl md:text-5xl font-bold mb-2">
+      <div className="mb-6 md:mb-8 flex flex-row items-start justify-between gap-4 md:gap-8">
+        <div className="min-w-0 flex-1">
+          <h1 className="text-2xl md:text-4xl font-bold mb-2 whitespace-nowrap md:whitespace-normal">
             Hi, I'm {portfolioData.name} 👋
           </h1>
-          <p className="text-gray-400 text-sm md:text-base leading-relaxed">
+          <p className="text-gray-400 text-xs md:text-sm leading-relaxed">
             {portfolioData.title}
           </p>
         </div>
 
-        <div className="mt-6 md:mt-1 flex justify-center md:justify-end flex-shrink-0">
-          <div className="w-28 h-28 md:w-24 md:h-24 rounded-full bg-gray-800 flex items-center justify-center overflow-hidden">
+        <div className="flex justify-end flex-shrink-0">
+          <div className="w-20 h-20 md:w-24 md:h-24 rounded-full bg-gray-800 flex items-center justify-center overflow-hidden">
             {/* Placeholder for profile image - replace with actual image */}
-            <div className="w-full h-full bg-gradient-to-br from-gray-700 to-gray-900 flex items-center justify-center text-3xl">
+            <div className="w-full h-full bg-gradient-to-br from-gray-700 to-gray-900 flex items-center justify-center text-2xl md:text-3xl">
               {portfolioData.name[0]}
             </div>
           </div>
@@ -82,27 +82,7 @@ export default function Sidebar() {
       </nav>
 
       {/* Navigation Menu - Mobile Horizontal Scroll */}
-      <nav className="md:hidden mt-4">
-        <ul className="flex space-x-4 overflow-x-auto pb-2 scrollbar-hide">
-          {navItems.map((item) => {
-            const isActive = activeSection === item.id
-            return (
-              <li key={item.id} className="flex-shrink-0">
-                <button
-                  onClick={() => scrollToSection(item.id)}
-                  className={`py-2 px-3 text-sm transition-colors duration-200 whitespace-nowrap ${
-                    isActive
-                      ? 'text-white font-medium border-b-2 border-white'
-                      : 'text-gray-500 hover:text-gray-300'
-                  }`}
-                >
-                  {item.label}
-                </button>
-              </li>
-            )
-          })}
-        </ul>
-      </nav>
+      {/* Hidden on mobile, only visible on desktop */}
     </div>
   )
 }
