@@ -1,4 +1,5 @@
 import { portfolioData } from '@/data/portfolio'
+import Image from 'next/image'
 
 export default function Projects() {
   return (
@@ -17,8 +18,18 @@ export default function Projects() {
             key={index}
             className="flex gap-6 p-4 rounded-lg hover:bg-gray-100 transition-colors"
           >
-            <div className="w-24 h-24 rounded bg-gray-200 flex-shrink-0 flex items-center justify-center">
-              <span className="text-2xl">📄</span>
+            <div className="w-24 h-24 rounded bg-gray-200 flex-shrink-0 flex items-center justify-center overflow-hidden">
+              {project.thumbnail ? (
+                <Image
+                  src={project.thumbnail}
+                  alt={project.title}
+                  width={96}
+                  height={96}
+                  className="w-full h-full object-cover"
+                />
+              ) : (
+                <span className="text-2xl">📄</span>
+              )}
             </div>
             <div className="flex-1">
               <div className="flex items-start justify-between mb-2">

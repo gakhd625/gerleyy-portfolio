@@ -41,10 +41,19 @@ export default function Sidebar() {
 
         <div className="flex justify-end flex-shrink-0">
           <div className="w-20 h-20 md:w-24 md:h-24 rounded-full bg-gray-200 flex items-center justify-center overflow-hidden">
-            {/* Placeholder for profile image - replace with actual image */}
-            <div className="w-full h-full bg-gradient-to-br from-gray-300 to-gray-200 flex items-center justify-center text-2xl md:text-3xl text-gray-700">
-              {portfolioData.name[0]}
-            </div>
+            {portfolioData.profileImage ? (
+              <Image
+                src={portfolioData.profileImage}
+                alt={portfolioData.name}
+                width={96}
+                height={96}
+                className="w-full h-full object-cover"
+              />
+            ) : (
+              <div className="w-full h-full bg-gradient-to-br from-gray-300 to-gray-200 flex items-center justify-center text-2xl md:text-3xl text-gray-700">
+                {portfolioData.name[0]}
+              </div>
+            )}
           </div>
         </div>
       </div>

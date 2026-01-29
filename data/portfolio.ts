@@ -1,8 +1,8 @@
 export const portfolioData = {
   name: "Gerlie",
   title: "AI Engineer specializing in multi-agent systems and AI automation. I build scalable AI platforms that deliver measurable impact.",
-  about: "I specialize in building production AI systems that solve real business problems at scale. My work focuses on multi-agent architectures, AI automation, and serverless infrastructure that consistently delivers double-digit efficiency gains and cost reductions. I've led teams shipping high-uptime platforms handling thousands of daily transactions, and built autonomous AI agents that resolve the majority of tasks without human intervention. I move fast from concept to production, prioritizing measurable impact over complexity.",
-  profileImage: "/profile.jpg", // You'll need to add this image
+  about: "I’m a full-stack software engineer focused on building production-ready web and application systems using Next.js, Python, and Laravel. I work across modern web apps, mobile solutions, and platform features with an emphasis on performance, maintainability, and shipping real value.Alongside my core development work, I’ve been actively exploring cloud security and AI-driven security practices. I’m particularly interested in how artificial intelligence can enhance threat detection, automate security workflows, and support secure-by-design development. This includes experimenting with AI-powered security tools, generative AI for security operations, and applying security principles directly within application architecture.I move fast from concept to implementation, keeping development practical while steadily deepening my security and AI knowledge to build more resilient systems.",
+  profileImage: "/profile/PROFILE.png", 
   
   workExperience: [
     {
@@ -157,14 +157,27 @@ export const portfolioData = {
     {
       title: "AWS CERTIFIED CLOUD PRACTITIONER",
       date: "April 30th, 2025",
+      issuer: "Issued by Amazon Web Services",
+      thumbnail: "/certification/AWS.jpg"
+    },
+    {
+      title: "Oracle Certified Generative AI Professional",
+      date: "June 23th, 2024",
+      issuer: "Issued by Oracle",
+      thumbnail: "/certification/oracle-genai.jpg"
+    },
+    {
+      title: "Google Certified Cybersecurity Professional",
+      date: "February 20th, 2024",
       issuer: "Issued by Coursera",
-      thumbnail: "/google-cert.jpg"
+      thumbnail: "/certification/google-cybersecurity.png"
     }
+
   ],
 
   contact: {
-    email: "dna.chavez@outlook.com",
-    message: "Want to chat? Just shoot me an email at dna.chavez@outlook.com and I'll respond whenever I can. I will ignore all soliciting."
+    email: "gerlieannkatherine.dagaas@gmail.com",
+    message: "Want to chat? Just shoot me an email at gerlieannkatherine.dagaas@gmail.com and I'll respond whenever I can. I will ignore all soliciting."
   },
 
   social: {

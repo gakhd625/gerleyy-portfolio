@@ -1,4 +1,5 @@
 import { portfolioData } from '@/data/portfolio'
+import Image from 'next/image'
 
 export default function Certifications() {
   return (
@@ -17,9 +18,24 @@ export default function Certifications() {
             key={index}
             className="flex gap-6 p-4 rounded-lg hover:bg-gray-100 transition-colors"
           >
-            <div className="w-24 h-24 rounded bg-gray-200 flex-shrink-0 flex items-center justify-center">
-              <span className="text-2xl">📜</span>
-            </div>
+            <a
+              href={cert.thumbnail}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="w-24 h-24 rounded bg-gray-200 flex-shrink-0 flex items-center justify-center hover:opacity-80 transition-opacity overflow-hidden"
+            >
+              {cert.thumbnail ? (
+                <Image
+                  src={cert.thumbnail}
+                  alt={cert.title}
+                  width={96}
+                  height={96}
+                  className="w-full h-full object-cover"
+                />
+              ) : (
+                <span className="text-3xl">🏆</span>
+              )}
+            </a>
             <div className="flex-1">
               <h3 className="text-xl font-semibold mb-1 text-black">{cert.title}</h3>
               <p className="text-sm text-gray-500 mb-1">{cert.date}</p>
