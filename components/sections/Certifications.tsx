@@ -4,11 +4,11 @@ import Image from 'next/image'
 export default function Certifications() {
   return (
     <section id="certifications" className="mb-24 scroll-mt-8">
-      <div className="inline-block px-3 py-1 bg-white border border-black rounded mb-4">
-        <span className="text-sm font-medium text-black">Certifications</span>
+      <div className="inline-block px-3 py-1 bg-white dark:bg-slate-800 border border-black dark:border-gray-700 rounded mb-4">
+        <span className="text-sm font-medium text-black dark:text-white">Certifications</span>
       </div>
-      <h2 className="text-3xl font-bold mb-4 text-black">Professional credentials</h2>
-      <p className="text-gray-600 mb-8 leading-relaxed">
+      <h2 className="text-3xl font-bold mb-4 text-black dark:text-white">Professional credentials</h2>
+      <p className="text-gray-600 dark:text-gray-400 mb-8 leading-relaxed">
         I continuously invest in professional development to stay current with industry best practices and emerging technologies. These certifications validate my expertise and commitment to excellence.
       </p>
       
@@ -16,13 +16,13 @@ export default function Certifications() {
         {portfolioData.certifications.map((cert, index) => (
           <div
             key={index}
-            className="flex gap-6 p-4 rounded-lg hover:bg-gray-100 transition-colors"
+            className="flex gap-6 p-4 rounded-lg hover:bg-gray-100 dark:hover:bg-slate-800 transition-colors"
           >
             <a
               href={cert.thumbnail}
               target="_blank"
               rel="noopener noreferrer"
-              className="w-24 h-24 rounded bg-gray-200 flex-shrink-0 flex items-center justify-center hover:opacity-80 transition-opacity overflow-hidden"
+              className="w-24 h-24 rounded bg-gray-200 dark:bg-slate-700 flex-shrink-0 flex items-center justify-center hover:opacity-80 transition-opacity overflow-hidden"
             >
               {cert.thumbnail ? (
                 <Image
@@ -37,9 +37,9 @@ export default function Certifications() {
               )}
             </a>
             <div className="flex-1">
-              <h3 className="text-xl font-semibold mb-1 text-black">{cert.title}</h3>
-              <p className="text-sm text-gray-500 mb-1">{cert.date}</p>
-              <p className="text-sm text-gray-600">{cert.issuer}</p>
+              <h3 className="text-xl font-semibold mb-1 text-black dark:text-white">{cert.title}</h3>
+              <p className="text-sm text-gray-500 dark:text-gray-500 mb-1">{cert.date}</p>
+              <p className="text-sm text-gray-600 dark:text-gray-400">{cert.issuer}</p>
             </div>
           </div>
         ))}

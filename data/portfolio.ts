@@ -1,7 +1,7 @@
 export const portfolioData = {
   name: "Gerlie",
   title: "Full-Stack Software Engineer specializing in modern web applications. I build scalable, production-ready systems with a focus on performance and reliability.",
-  about: "I’m a full-stack software engineer focused on building production-ready web and application systems using Next.js, Python, and Laravel. I work across modern web apps, mobile solutions, and platform features with an emphasis on performance, maintainability, and shipping real value.Alongside my core development work, I’ve been actively exploring cloud security and AI-driven security practices. I’m particularly interested in how artificial intelligence can enhance threat detection, automate security workflows, and support secure-by-design development. This includes experimenting with AI-powered security tools, generative AI for security operations, and applying security principles directly within application architecture.I move fast from concept to implementation, keeping development practical while steadily deepening my security and AI knowledge to build more resilient systems.",
+  about: "I’m a full-stack software engineer focused on building production-ready web and application systems using Next.js, Python, and Laravel. I work across modern web apps, mobile solutions, and platform features with an emphasis on performance, maintainability, and shipping real value. Alongside my core development work, I’ve been actively exploring cloud security and AI-driven security practices, particularly how AI can enhance threat detection, automate security workflows, and support secure-by-design development. I move fast from concept to implementation, keeping development practical while steadily deepening my security and AI knowledge to build more resilient systems.",
   profileImage: "/profile/PROFILE.png", 
   
   workExperience: [
@@ -15,7 +15,7 @@ export const portfolioData = {
     {
       company: "Passerelles Numeriques Philippines",
       role: "Web Developer",
-      period: "January 2025 - Aug 2025",
+      period: "May 2025 - Aug 2025",
       logo: "/company-logos/pn-logo.png",
       location: "Onsite - Cebu City, PH"
     },
@@ -84,15 +84,69 @@ export const portfolioData = {
 
   projects: [
     {
-      title: "RouteWise",
-      date: "April 2025",
-      description: "Mobile Jeepney Route Guide for Cebu Commuters",
-      technologies: ["Next.js", "TypeScript", "Capacitor", "Mapbox"],
+      title: "LLM-Chatbot",
+      date: "2026",
+      description: "A Python-based AI chatbot built with Streamlit, designed to provide intelligent, context-aware conversations with a clean and professional interface. The application focuses on maintaining conversation history, customizing chatbot behavior, and delivering a user-friendly chat experience.",
+      technologies: ["Python", "Streamlit", "Gemeni API", "HTML", "CSS"],
       links: {
-        website: "https://routewise.com",
-        source: "https://github.com/routewise"
+        website: "https://e-para.vercel.app/",
+        source: ""
+      },
+      thumbnail: "/projects/e-para.png"
+    },
+    {
+      title: "Resume Builder",
+      date: "2026",
+      description: "Harvard style and ATS-friendly resume builder",
+      technologies: ["TypeScript", "NextJS"],
+      links: {
+        website: "https://resume-builder-liard-nine-41.vercel.app/",
+        source: ""
+      },
+      thumbnail: "/projects/resume-builder.png"
+    },
+    {
+      title: "DailyArc",
+      date: "2025",
+      description: "A C#-based project tracking system designed to manage tasks, issues, and workflows in a structured backlog. The application focuses on organizing work items, tracking progress, assigning priorities, and improving team visibility throughout the development lifecycle.",
+      technologies: ["C#", ".NET Framework", "CSHTML", "Javascript"],
+      links: {
+        website: "",
+        source: ""
+      },
+      thumbnail: "/projects/dailyarc.png"
+    },
+    {
+      title: "RouteWise",
+      date: "2025",
+      description: "Mobile Jeepney Route Guide for Cebu Commuters",
+      technologies: ["Mobile", "Mapbox", "React Native", "Expo"],
+      links: {
+        website: "https://routewise-teal.vercel.app",
+        source: ""
       },
       thumbnail: "/projects/routewise.png"
+    },
+    {
+      title: "Expfin",
+      date: "2025",
+      description: "A Flutter-based mobile app that helps users effortlessly track expenses and manage their finances with a clean, user-friendly interface and real-time insights.",
+      technologies: ["Next.js", "TypeScript", "Firebase", "Google Maps API"],
+      links: {
+        website: "https://e-para.vercel.app/"
+      },
+      thumbnail: "/projects/e-para.png"
+    },
+    {
+      title: "SafePlay",
+      date: "2025",
+      description: "AI-powered Chrome extension using Google Gemini LLM to perform behavioral analysis on in-game chats by monitoring chat to detect grooming, cyberbullying, and emotional abuse.",
+      technologies: ["AI", "Gemini", "Javascript"],
+      links: {
+        website: "https://safeplay.dev",
+        source: ""
+      },
+      thumbnail: "/projects/safeplay.png"
     },
     {
       title: "PNHMS",
@@ -110,7 +164,7 @@ export const portfolioData = {
       description: "It is capable of analyzing and classifying the sentiment of text data into positive, negative, or neutral categories.",
       technologies: ["C#", "JavaScript", "Bootstrap", ".NET Core"],
       links: {
-        source: "https://github.com/sentiai"
+        source: ""
       },
       thumbnail: "/projects/dailyarc.png"
     },
@@ -123,6 +177,63 @@ export const portfolioData = {
         website: "https://pic-journi.vercel.app/"
       },
       thumbnail: "/projects/picjourni.png"
+    },
+    {
+      title: "SaApp",
+      date: "2023",
+      description: "A web application that generates capstone project ideas for students based on their interests and skills.",
+      technologies: ["HTML", "CSS", "JavaScript", "PHP"],
+      links: {
+        website: "https://capstone-generator.brylDaga-as.com",
+        source: ""
+      },
+      thumbnail: "/projects/saapp.png"
+    },
+    {
+      title: "Library System",
+      date: "2023",
+      description: "Console-Based Library Management System",
+      technologies: ["C", "Visual Studio", "Console-Based"],
+      links: {
+        website: "https://booqed.com",
+        source: ""
+      },
+      thumbnail: "/projects/library-system.png"
+    }
+  ],
+
+  featuredProjects: [
+    {
+      title: "DailyArc",
+      date: "2025",
+      description: "A C#-based project tracking system designed to manage tasks, issues, and workflows in a structured backlog. The application focuses on organizing work items, tracking progress, assigning priorities, and improving team visibility throughout the development lifecycle.",
+      technologies: ["C#", ".NET Framework", "CSHTML", "Javascript"],
+      links: {
+        website: "",
+        source: ""
+      },
+      thumbnail: "/projects/dailyarc.png"
+    },
+    {
+      title: "RouteWise",
+      date: "2025",
+      description: "Mobile Jeepney Route Guide for Cebu Commuters",
+      technologies: ["Mobile", "Mapbox", "React Native", "Expo"],
+      links: {
+        website: "https://routewise-teal.vercel.app",
+        source: ""
+      },
+      thumbnail: "/projects/routewise.png"
+    },
+    {
+      title: "PNHMS",
+      date: "August 2025 - October 2025",
+      description: "A web-based accounting and financial dashboard system for Passerelles Numeriques Philippines designed to automate manual financial processes for Passerelles Numériques Philippines. It improves accuracy, efficiency, and financial visibility through centralized data management and real-time dashboards.",
+      technologies: ["Bootstrap", "JavaScript", "Laravel", "MySQL", "PHP"],
+      links: {
+        website: "https://pnhms.com"
+      },
+      thumbnail: "/projects/PNPHMS.png"
     }
   ],
 

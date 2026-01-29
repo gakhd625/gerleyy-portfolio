@@ -1,18 +1,43 @@
 'use client'
 
 import { portfolioData } from '@/data/portfolio'
+import { SunIcon, MoonIcon , ChatBubbleLeftRightIcon} from "@heroicons/react/24/outline";
+import { useEffect, useState } from 'react';
 
 export default function Footer() {
+  const [isDark, setIsDark] = useState(false)
+
+  useEffect(() => {
+    // Check if dark mode is already enabled
+    const isDarkMode = document.documentElement.classList.contains('dark')
+    setIsDark(isDarkMode)
+  }, [])
+
+  const toggleDarkMode = () => {
+    const html = document.documentElement
+    const newDarkMode = !isDark
+    
+    if (newDarkMode) {
+      html.classList.add('dark')
+      localStorage.setItem('theme', 'dark')
+    } else {
+      html.classList.remove('dark')
+      localStorage.setItem('theme', 'light')
+    }
+    
+    setIsDark(newDarkMode)
+  }
+
   const scrollToTop = () => {
     window.scrollTo({ top: 0, behavior: 'smooth' })
   }
 
   return (
     <footer className="fixed bottom-4 left-1/2 transform -translate-x-1/2 z-50">
-      <div className="bg-white border border-black rounded-full px-4 py-2 flex items-center gap-4 shadow-lg">
+      <div className="bg-white dark:bg-slate-900 border border-black dark:border-gray-700 rounded-full px-4 py-2 flex items-center gap-4 shadow-lg">
         <button
           onClick={scrollToTop}
-          className="text-black hover:text-gray-600 transition-colors"
+          className="text-black dark:text-white hover:text-gray-600 dark:hover:text-gray-400 transition-colors"
           aria-label="Home"
         >
           <svg
@@ -35,7 +60,7 @@ export default function Footer() {
           href="/resume.pdf"
           target="_blank"
           rel="noopener noreferrer"
-          className="text-black hover:text-gray-600 transition-colors"
+          className="text-black dark:text-white hover:text-gray-600 dark:hover:text-gray-400 transition-colors"
           aria-label="Resume"
         >
           <svg
@@ -63,7 +88,7 @@ export default function Footer() {
           href={portfolioData.social.github}
           target="_blank"
           rel="noopener noreferrer"
-          className="text-black hover:text-gray-600 transition-colors"
+          className="text-black dark:text-white hover:text-gray-600 dark:hover:text-gray-400 transition-colors"
           aria-label="GitHub"
         >
           <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
@@ -74,7 +99,7 @@ export default function Footer() {
           href={portfolioData.social.linkedin}
           target="_blank"
           rel="noopener noreferrer"
-          className="text-black hover:text-gray-600 transition-colors"
+          className="text-black dark:text-white hover:text-gray-600 dark:hover:text-gray-400 transition-colors"
           aria-label="LinkedIn"
         >
           <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
@@ -85,7 +110,7 @@ export default function Footer() {
           href={portfolioData.social.twitter}
           target="_blank"
           rel="noopener noreferrer"
-          className="text-black hover:text-gray-600 transition-colors"
+          className="text-black dark:text-white hover:text-gray-600 dark:hover:text-gray-400 transition-colors"
           aria-label="Twitter"
         >
           <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
@@ -96,7 +121,7 @@ export default function Footer() {
           href={portfolioData.social.instagram}
           target="_blank"
           rel="noopener noreferrer"
-          className="text-black hover:text-gray-600 transition-colors"
+          className="text-black dark:text-white hover:text-gray-600 dark:hover:text-gray-400 transition-colors"
           aria-label="Instagram"
         >
           <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
@@ -107,7 +132,7 @@ export default function Footer() {
           href={portfolioData.social.tiktok}
           target="_blank"
           rel="noopener noreferrer"
-          className="text-black hover:text-gray-600 transition-colors"
+          className="text-black dark:text-white hover:text-gray-600 dark:hover:text-gray-400 transition-colors"
           aria-label="TikTok"
         >
           <svg className="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
@@ -115,16 +140,21 @@ export default function Footer() {
           </svg>
         </a>
         <button
-          className="text-black hover:text-gray-600 transition-colors"
+          onClick={toggleDarkMode}
+          className="text-black dark:text-white hover:text-gray-600 dark:hover:text-gray-400 transition-colors"
           aria-label="Toggle theme"
         >
-          ☀️
+          {isDark ? (
+            <SunIcon className="h-5 w-5" />
+          ) : (
+            <MoonIcon className="h-5 w-5" />
+          )}
         </button>
         <button
-          className="text-black hover:text-gray-600 transition-colors"
+          className="text-black dark:text-white hover:text-gray-600 dark:hover:text-gray-400 transition-colors"
           aria-label="Chat"
         >
-          💬
+          <ChatBubbleLeftRightIcon className="h-5 w-5" />
         </button>
       </div>
     </footer>
