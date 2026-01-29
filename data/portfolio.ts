@@ -1,6 +1,6 @@
 export const portfolioData = {
   name: "Gerlie",
-  title: "AI Engineer specializing in multi-agent systems and AI automation. I build scalable AI platforms that deliver measurable impact.",
+  title: "Full-Stack Software Engineer specializing in modern web applications. I build scalable, production-ready systems with a focus on performance and reliability.",
   about: "I’m a full-stack software engineer focused on building production-ready web and application systems using Next.js, Python, and Laravel. I work across modern web apps, mobile solutions, and platform features with an emphasis on performance, maintainability, and shipping real value.Alongside my core development work, I’ve been actively exploring cloud security and AI-driven security practices. I’m particularly interested in how artificial intelligence can enhance threat detection, automate security workflows, and support secure-by-design development. This includes experimenting with AI-powered security tools, generative AI for security operations, and applying security principles directly within application architecture.I move fast from concept to implementation, keeping development practical while steadily deepening my security and AI knowledge to build more resilient systems.",
   profileImage: "/profile/PROFILE.png", 
   
@@ -23,7 +23,7 @@ export const portfolioData = {
       company: "Freelance",
       role: "Freelance Developer",
       period: "August 2024 - Present",
-      logo: "T",
+      logo: "/company-logos/upwork.png",
       location: "Remote"
     },
     // {
@@ -66,7 +66,7 @@ export const portfolioData = {
     {
       institution: "Valencia Technical Vocational High School",
       degree: "Science, Technology, Engineering, and Mathematics (STEM)",
-      period: "2020 - 2022",
+      period: "2021 - 2023",
       logo: "/school-logos/vtvhs.jpg"
     }
   ],
@@ -84,15 +84,15 @@ export const portfolioData = {
 
   projects: [
     {
-      title: "ThinkOfATitle",
+      title: "RouteWise",
       date: "April 2025",
-      description: "ThinkOfATitle is an AI-powered tool that helps you generate creative and professional titles for academic papers, dissertations, theses, and research documents. It leverages Google's Gemini 2.0...",
-      technologies: ["Next.js", "TypeScript", "Gemini"],
+      description: "Mobile Jeepney Route Guide for Cebu Commuters",
+      technologies: ["Next.js", "TypeScript", "Capacitor", "Mapbox"],
       links: {
-        website: "https://thinkofatitle.com",
-        source: "https://github.com/thinkofatitle"
+        website: "https://routewise.com",
+        source: "https://github.com/routewise"
       },
-      thumbnail: "/thinkofatitle.jpg"
+      thumbnail: "/projects/routewise.png"
     },
     {
       title: "Bilis Delivery",
@@ -156,7 +156,7 @@ export const portfolioData = {
   certifications: [
     {
       title: "AWS CERTIFIED CLOUD PRACTITIONER",
-      date: "April 30th, 2025",
+      date: "January 14, 2025",
       issuer: "Issued by Amazon Web Services",
       thumbnail: "/certification/AWS.jpg"
     },
@@ -168,7 +168,7 @@ export const portfolioData = {
     },
     {
       title: "Google Certified Cybersecurity Professional",
-      date: "February 20th, 2024",
+      date: "November, 2024",
       issuer: "Issued by Coursera",
       thumbnail: "/certification/google-cybersecurity.png"
     }
@@ -182,10 +182,10 @@ export const portfolioData = {
 
   social: {
     github: "https://github.com/dnachavez",
-    linkedin: "https://linkedin.com/in/dnachavez",
-    twitter: "https://twitter.com/dnachavez",
-    instagram: "https://instagram.com/dnachavez",
-    tiktok: "https://tiktok.com/@dnachavez"
+    // linkedin: "https://linkedin.com/in/dnachavez",
+    // twitter: "https://twitter.com/dnachavez",
+    // instagram: "https://instagram.com/dnachavez",
+    // tiktok: "https://tiktok.com/@dnachavez"
   }
 }
 

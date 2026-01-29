@@ -14,7 +14,7 @@ export default function Contact() {
             {index < array.length - 1 && (
               <a
                 href={`mailto:${portfolioData.contact.email}`}
-                className="text-blue-600 hover:text-blue-700 underline">
+                className="text-blue-600 hover:text-blue-700 underline"
               >
                 {portfolioData.contact.email}
               </a>
