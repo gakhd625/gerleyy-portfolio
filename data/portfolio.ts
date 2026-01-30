@@ -17,7 +17,7 @@ export const portfolioData = {
       role: "Web Developer",
       period: "May 2025 - Aug 2025",
       logo: "/company-logos/pn-logo.png",
-      location: "Onsite - Cebu City, PH"
+      location: "Philippines"
     },
     {
       company: "Freelance",
