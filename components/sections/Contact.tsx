@@ -1,5 +1,6 @@
 import { portfolioData } from '@/data/portfolio'
 
+
 export default function Contact() {
   return (
     <section id="contact" className="mb-24 scroll-mt-8">
