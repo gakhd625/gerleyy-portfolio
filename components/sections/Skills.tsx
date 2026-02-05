@@ -6,7 +6,7 @@ const skillCategories = [
   { title: 'Cloud & DevOps', skills: portfolioData.skills.cloud, icon: '☁️' },
   { title: 'Version Control', skills: portfolioData.skills.versionControl, icon: '📦' },
   { title: 'Frameworks & Libraries', skills: portfolioData.skills.frameworks, icon: '⚛️' },
-  { title: 'Automation', skills: portfolioData.skills.automation, icon: '⚙️' },
+  // { title: 'Automation', skills: portfolioData.skills.automation, icon: '⚙️' },
   { title: 'Databases', skills: portfolioData.skills.databases, icon: '🗄️' },
   { title: 'Design & Tools', skills: portfolioData.skills.design, icon: '🎨' }
 ]
