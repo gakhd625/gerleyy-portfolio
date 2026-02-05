@@ -72,14 +72,14 @@ export const portfolioData = {
   ],
 
   skills: {
-    languages: ["Python", "TypeScript", "JavaScript", "PHP"],
-    ai: ["OpenAI", "Google Gemini", "Anthropic Claude", "Hugging Face Transformers", "Pinecone", "Neo4j", "Azure Document Intelligence"],
-    frameworks: ["React.js", "Next.js", "Node.js", "Laravel", "CodeIgniter", "LangChain", "LangGraph", "LangSmith", "Vue.js", "Express.js"],
-    automation: ["n8n", "Make", "Zapier"],
-    databases: ["MySQL", "PostgreSQL", "DynamoDB", "Supabase", "Redis"],
-    cloud: ["AWS", "GCP", "Firebase", "Vercel", "Netlify", "GitHub Actions", "CircleCI", "Serverless Framework", "Digital Ocean", "Replit", "cPanel"],
+    languages: ["Python", "TypeScript", "JavaScript", "PHP", "C#", "C"],
+    ai: ["OpenAI", "Google Gemini", "Anthropic Claude"]
+    frameworks: ["React.js", "Next.js", "Node.js", "Laravel", "Flask", "Express.js"],
+    // automation: ["n8n", "Make", "Zapier"],
+    databases: ["MySQL", "PostgreSQL", "DynamoDB", "Supabase"],
+    cloud: ["AWS", "GCP", "Firebase", "Vercel", "Netlify", "GitHub Actions", "Replit"],
     versionControl: ["Git", "GitHub", "Bitbucket"],
-    design: ["Figma", "Photoshop", "Canva", "WordPress", "Adobe Creative Suite"]
+    design: ["Figma", "Photoshop", "Canva", "WordPress"]
   },
 
   projects: [
