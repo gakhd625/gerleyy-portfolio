@@ -61,9 +61,13 @@ export default function Sidebar() {
       {/* About Section */}
       <div className="mb-8">
         <h2 className="text-xl font-semibold mb-4 text-black dark:text-white">About</h2>
-        <p className="text-gray-600 dark:text-gray-400 text-sm leading-relaxed">
-          {portfolioData.about}
-        </p>
+        <div className="space-y-4">
+          {portfolioData.about.map((paragraph, index) => (
+            <p key={index} className="text-gray-600 dark:text-gray-400 text-sm leading-relaxed">
+              {paragraph}
+            </p>
+          ))}
+        </div>
       </div>
 
       {/* Navigation Menu - Desktop Vertical */}
