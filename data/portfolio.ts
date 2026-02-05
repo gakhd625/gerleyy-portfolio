@@ -7,7 +7,7 @@ export const portfolioData = {
   workExperience: [
     {
       company: "ChronoStep Inc.",
-      role: "Software Developer",
+      role: "Software Engineer",
       period: "April 2025 - Present",
       logo: "/company-logos/chronostep-logo.png",
       location: "Cebu City, Cebu"
