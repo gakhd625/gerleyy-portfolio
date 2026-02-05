@@ -73,7 +73,7 @@ export const portfolioData = {
 
   skills: {
     languages: ["Python", "TypeScript", "JavaScript", "PHP", "C#", "C"],
-    ai: ["OpenAI", "Google Gemini", "Anthropic Claude"]
+    ai: ["OpenAI", "Google Gemini", "Anthropic Claude"],
     frameworks: ["React.js", "Next.js", "Node.js", "Laravel", "Flask", "Express.js"],
     // automation: ["n8n", "Make", "Zapier"],
     databases: ["MySQL", "PostgreSQL", "DynamoDB", "Supabase"],
