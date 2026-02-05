@@ -8,7 +8,7 @@ export const portfolioData = {
     {
       company: "ChronoStep Inc.",
       role: "Software Developer",
-      period: "June 2025 - Present",
+      period: "April 2025 - Present",
       logo: "/company-logos/chronostep-logo.png",
       location: "Cebu City, Cebu"
     },
