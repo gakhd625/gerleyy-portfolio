@@ -282,6 +282,12 @@ export const portfolioData = {
       date: "November, 2024",
       issuer: "Issued by Coursera",
       thumbnail: "/certification/google-cybersecurity.png"
+    },
+    {
+      title: "Oracle  Certified Vector AI Search Professional ",
+      date: "May, 2025",
+      issuer: "Issued by Coursera",
+      thumbnail: "/certification/oracle-vector-ai-search.png"
     }
 
   ],
