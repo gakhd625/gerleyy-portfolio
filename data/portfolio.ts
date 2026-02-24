@@ -31,13 +31,13 @@ export const portfolioData = {
       logo: "/company-logos/upwork.png",
       location: "Remote"
     },
-    // {
-    //   company: "Bilis Delivery",
-    //   role: "Lead Full Stack Developer",
-    //   period: "April 2024 - December 2025",
-    //   logo: "🚚",
-    //   location: "Remote"
-    // },
+    {
+      company: "Japs Digital",
+      role: "Technical Support & Sales Associate",
+      period: "February 2021 - August 2023",
+      logo: "/company-logos/jde.png",
+      location: "Onsite"
+    },
     // {
     //   company: "Develop Kreativity",
     //   role: "Co-Founder & Chief Technology Officer",
