@@ -4,10 +4,10 @@ export const portfolioData = {
   about: "I’m a full-stack software engineer focused on building production-ready web and application systems using Next.js, Python, and Laravel. I work across modern web apps, mobile solutions, and platform features with an emphasis on performance, maintainability, and shipping real value. Alongside my core development work, I’ve been actively exploring cloud security and AI-driven security practices, particularly how AI can enhance threat detection, automate security workflows, and support secure-by-design development. I move fast from concept to implementation, keeping development practical while steadily deepening my security and AI knowledge to build more resilient systems.",
   profileImage: "/profile/PROFILE.png",
   
-  about: [
-    "I'm a full-stack software engineer building production-ready web and application systems with Next.js, Python, and Laravel. I've delivered and maintained modern web platforms, mobile solutions, and backend services for international clients, working across different time zones and business requirements. My work emphasizes performance, clean architecture, and maintainable code that ships real business value.",
-    "Alongside core development, I apply security-minded practices in day-to-day engineering and continue deepening my knowledge of cloud security and AI-assisted security tooling. I'm particularly interested in how AI can support secure-by-design development through threat detection, automated security checks, and smarter infrastructure monitoring. I move quickly from concept to implementation while keeping systems scalable, reliable, and resilient."
-  ],
+  // about: [
+  //   "I'm a full-stack software engineer building production-ready web and application systems with Next.js, Python, and Laravel. I've delivered and maintained modern web platforms, mobile solutions, and backend services for international clients, working across different time zones and business requirements. My work emphasizes performance, clean architecture, and maintainable code that ships real business value.",
+  //   "Alongside core development, I apply security-minded practices in day-to-day engineering and continue deepening my knowledge of cloud security and AI-assisted security tooling. I'm particularly interested in how AI can support secure-by-design development through threat detection, automated security checks, and smarter infrastructure monitoring. I move quickly from concept to implementation while keeping systems scalable, reliable, and resilient."
+  // ],
   
   workExperience: [
     {
