@@ -97,7 +97,7 @@ export const portfolioData = {
         website: "https://e-para.vercel.app/",
         source: ""
       },
-      thumbnail: "/projects/e-para.png"
+      thumbnail: "/projects/llmchatbot.png"
     },
     {
       title: "Resume Builder",
@@ -108,7 +108,7 @@ export const portfolioData = {
         website: "https://resume-builder-liard-nine-41.vercel.app/",
         source: ""
       },
-      thumbnail: "/projects/resume-builder.png"
+      thumbnail: "/projects/resumebuilder.png"
     },
     {
       title: "DailyArc",
@@ -125,7 +125,7 @@ export const portfolioData = {
       title: "RouteWise",
       date: "2025",
       description: "Mobile Jeepney Route Guide for Cebu Commuters",
-      technologies: ["Mobile", "Mapbox", "React Native", "Expo"],
+      technologies: ["Mobile", "Mapbox", "React", "Capacitor"],
       links: {
         website: "https://routewise-teal.vercel.app",
         source: ""
@@ -133,14 +133,14 @@ export const portfolioData = {
       thumbnail: "/projects/routewise.png"
     },
     {
-      title: "Expfin",
+      title: "Numo",
       date: "2025",
-      description: "A Flutter-based mobile app that helps users effortlessly track expenses and manage their finances with a clean, user-friendly interface and real-time insights.",
-      technologies: ["Next.js", "TypeScript", "Firebase", "Google Maps API"],
+      description: "Numo is a modern personal finance tracking app built with Expo and Supabase that helps users manage income and expenses with real-time visual insights. It features customizable categories, interactive analytics dashboards, secure authentication with row-level security, and an integrated AI assistant that analyzes spending patterns, provides personalized budgeting insights, and delivers smart financial recommendations directly within the app.",
+      technologies: ["expo", "react native", "TypeScript", "Supabase", "Vercel"],
       links: {
-        website: "https://e-para.vercel.app/"
+        website: "https://expo.dev/accounts/bildproj/projects/numo-finance-app/builds/8d9454a9-d5bf-4fe2-8b7c-6b53d43ca804"
       },
-      thumbnail: "/projects/e-para.png"
+      thumbnail: "/projects/numo2.png"
     },
     {
       title: "SafePlay",
