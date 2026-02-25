@@ -163,16 +163,16 @@ export const portfolioData = {
       },
       thumbnail: "/projects/PNPHMS.png"
     },
-    {
-      title: "Dailyarc",
-      date: "December 2025",
-      description: "It is capable of analyzing and classifying the sentiment of text data into positive, negative, or neutral categories.",
-      technologies: ["C#", "JavaScript", "Bootstrap", ".NET Core"],
-      links: {
-        source: ""
-      },
-      thumbnail: "/projects/dailyarc.png"
-    },
+    // {
+    //   title: "Dailyarc",
+    //   date: "December 2025",
+    //   description: "It is capable of analyzing and classifying the sentiment of text data into positive, negative, or neutral categories.",
+    //   technologies: ["C#", "JavaScript", "Bootstrap", ".NET Core"],
+    //   links: {
+    //     source: ""
+    //   },
+    //   thumbnail: "/projects/dailyarc.png"
+    // },
     {
       title: "PicJourni – Travel & Memory Journal",
       date: "April 2025",
