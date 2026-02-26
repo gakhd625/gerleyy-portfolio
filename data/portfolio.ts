@@ -339,6 +339,14 @@ export const portfolioData = {
       description: "Mentored students in web development and software engineering as part of a nonprofit organization focused on education and empowerment.",
       thumbnail: "/volunteer/pn.jpg",
       link: ""
+    },
+    {
+      title: "Google IO Extended Cebu 2025",
+      date: "2025",
+      type: "Volunteer",
+      description: "Contributed as a technical volunteer for GDG Cebu, assisting participants in hands-on workshops, troubleshooting, and providing support during the event.",
+      thumbnail: "/volunteer/gdgio.jpg",
+      link: ""
     }
 
   ],
