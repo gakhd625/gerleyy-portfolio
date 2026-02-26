@@ -1,3 +1,5 @@
+import { title } from "process";
+
 export const portfolioData = {
   name: "Gerlie",
   title: "Full-Stack Software Engineer specializing in modern web applications. I build scalable, production-ready systems with a focus on performance and reliability.",
@@ -307,10 +309,10 @@ export const portfolioData = {
       link: ""
     },
     {
-      title: "Google Developer Group Cebu",
+      title: "GDG Build with AI",
       date: "2025",
       type: "Volunteer",
-      description: "Participated in local community activities focused on youth support and digital literacy.",
+      description: "Contributed as a technical volunteer for GDG Cebu, assisting participants in hands-on workshops, troubleshooting, and providing support during the event.",
       thumbnail: "/volunteer/gdg.jpg",
       link: ""
     },
@@ -329,7 +331,16 @@ export const portfolioData = {
       description: "Organized peer sessions and contributed to initiatives that encourage women in technology.",
       thumbnail: "/volunteer/awsclub.jpg",
       link: ""
+    },
+    {
+      title: "Passerelles Numeriques Philippines",
+      date: "2025",
+      type: "Volunteer",
+      description: "Mentored students in web development and software engineering as part of a nonprofit organization focused on education and empowerment.",
+      thumbnail: "/volunteer/pn.jpg",
+      link: ""
     }
+
   ],
 
   contact: {
