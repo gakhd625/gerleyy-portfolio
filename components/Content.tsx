@@ -9,6 +9,7 @@ import Hackathons from './sections/Hackathons'
 import Certifications from './sections/Certifications'
 import Contact from './sections/Contact'
 import Resume from './sections/Resume'
+import BeyondCode from './sections/BeyondCode'
 
 export default function Content() {
   return (
@@ -20,6 +21,7 @@ export default function Content() {
       <Projects />
       <Hackathons />
       <Certifications />
+      <BeyondCode />
       <Contact />
     </div>
   )

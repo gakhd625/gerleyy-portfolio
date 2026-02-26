@@ -12,7 +12,8 @@ const navItems = [
   { id: 'projects', label: 'Projects' },
   { id: 'hackathons', label: 'Hackathons' },
   { id: 'certifications', label: 'Certifications' },
-  { id: 'contact', label: 'Contact' }
+  { id: 'contact', label: 'Contact' },
+  { id: 'beyond-code', label: 'Beyond Code' },
 ]
 
 export default function Sidebar() {

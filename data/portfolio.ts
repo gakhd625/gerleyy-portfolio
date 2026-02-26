@@ -297,6 +297,41 @@ export const portfolioData = {
 
   ],
 
+  beyondCode: [
+    {
+      title: "DOST: Innovation Technology Transfer Summit Visayas 2024",
+      date: "2024",
+      type: "Leadership and Innovation",
+      description: "Top 10 Finalist (out of 75 teams) in the Pitch Quest – Student Category at Marco Polo Hotel, presenting an innovative technology solution to a panel of judges and industry leaders.",
+      thumbnail: "/volunteer/dost.jpg",
+      link: ""
+    },
+    {
+      title: "Google Developer Group Cebu",
+      date: "2025",
+      type: "Volunteer",
+      description: "Participated in local community activities focused on youth support and digital literacy.",
+      thumbnail: "/volunteer/gdg.jpg",
+      link: ""
+    },
+    {
+      title: "DevCon Cyberseries",
+      date: "2024",
+      type: "Volunteer",
+      description: "Supported school events as part of the technical team for setup, coordination, and documentation.",
+      thumbnail: "/volunteer/devconcyber.jpg",
+      link: ""
+    },
+    {
+      title: "AWS Community ",
+      date: "2024",
+      type: "Leadership",
+      description: "Organized peer sessions and contributed to initiatives that encourage women in technology.",
+      thumbnail: "/volunteer/awsclub.jpg",
+      link: ""
+    }
+  ],
+
   contact: {
     email: "gerlieannkatherine.dagaas@gmail.com",
     message: "Want to chat? Just shoot me an email at gerlieannkatherine.dagaas@gmail.com and I'll respond whenever I can. I will ignore all soliciting."
