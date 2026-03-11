@@ -177,7 +177,8 @@ export const portfolioData = {
     // },
     {
       title: "PicJourni – Travel & Memory Journal",
-      date: "April 2025",
+      date: "2024",
+      //April 2025
       description: "PicJourni is a web app that lets users pin the places they’ve visited, capture photos, and write stories. It provides an interactive map to visualize journeys and a simple, beautiful way to relive every trip.",
       technologies: ["Firebase", "Next.js", "TypeScript", "CSS"],
       links: {
