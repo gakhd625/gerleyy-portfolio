@@ -188,7 +188,7 @@ export const portfolioData = {
     {
       title: "SaApp",
       date: "2023",
-      description: "A web application that generates capstone project ideas for students based on their interests and skills.",
+      description: "A sustainable agriculture application designed for Filipino farmers to check weather conditions and identify the best crop planting seasons",
       technologies: ["HTML", "CSS", "JavaScript", "PHP"],
       links: {
         website: "https://capstone-generator.brylDaga-as.com",
