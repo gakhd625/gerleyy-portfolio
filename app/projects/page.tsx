@@ -21,7 +21,7 @@ export default function AllProjectsPage() {
         <h1 className="text-4xl font-bold mb-12 text-gray-900 dark:text-white">All Projects</h1>
 
         {/* Projects Cards */}
-        <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+        <div className="[column-count:1] sm:[column-count:2] lg:[column-count:3] gap-6 space-y-6">
           {portfolioData.projects.map((project, index) => {
             const primaryLink = project.links.website || project.links.source
 

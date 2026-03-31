@@ -14,7 +14,7 @@ export default function Projects() {
         I've worked on a variety of projects, from simple websites to complex web applications. Here are a few of my favorites.
       </p>
 
-      <div className="grid gap-6 sm:grid-cols-2">
+      <div className="[column-count:1] sm:[column-count:2] gap-6 space-y-6">
         {portfolioData.featuredProjects.map((project, index) => {
           const primaryLink = project.links.website || project.links.source
 
