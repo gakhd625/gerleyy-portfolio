@@ -65,11 +65,11 @@ export default function BeyondCodePage() {
                     className="inline-flex items-center gap-2 px-3 py-2 text-sm rounded border border-gray-300 dark:border-gray-700 hover:bg-gray-100 dark:hover:bg-slate-800 transition-colors"
                   >
                     <ExternalLink className="w-4 h-4" />
-                    Open link
+                    {item.title === "DOST: Innovation Technology Transfer Summit Visayas 2024" ? "Read Article" : "Open link"}
                   </a>
                 ) : (
                   <span className="inline-flex items-center px-3 py-2 text-sm rounded border border-gray-300 dark:border-gray-700 text-gray-500 dark:text-gray-400">
-                    Add link later
+                    No link available
                   </span>
                 )}
               </div>

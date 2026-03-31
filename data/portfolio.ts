@@ -318,7 +318,7 @@ export const portfolioData = {
       type: "Leadership and Innovation",
       description: "Top 10 Finalist (out of 75 teams) in the Pitch Quest – Student Category at Marco Polo Hotel, presenting an innovative technology solution to a panel of judges and industry leaders.",
       thumbnail: "/volunteer/dost.jpg",
-      link: ""
+      link: "https://region7.dost.gov.ph/dost-7s-innovation-hub-produces-6-tech-startups-11-founders/"
     },
     {
       title: "GDG Build with AI",

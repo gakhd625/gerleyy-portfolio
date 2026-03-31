@@ -78,7 +78,7 @@ export default function BeyondCode() {
           href="/beyond-code"
           className="text-gray-600 dark:text-gray-400 hover:text-black dark:hover:text-white transition-colors text-sm flex items-center gap-2"
         >
-          VIEW my beyond code journey <span>→</span>
+          Beyond code journey <span>→</span>
         </a>
       </div>
     </section>
