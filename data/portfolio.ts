@@ -116,7 +116,7 @@ export const portfolioData = {
       title: "Velune",
       date: "2025",
       description: "Velune Cafe is a cozy, modern minimalist café designed as a calm escape from the fast pace of everyday life.",
-      technologies: ["React", "Node.js", "MongoDB", "Mapbox"],
+      technologies: ["React", "Node.js", "Gmaps"],
       links: {
         website: "https://velune.sites.repaint.com/",
         source: ""
