@@ -113,6 +113,17 @@ export const portfolioData = {
       thumbnail: "/projects/resumebuilder.png"
     },
     {
+      title: "Velune",
+      date: "2025",
+      description: "Velune Cafe is a cozy, modern minimalist café designed as a calm escape from the fast pace of everyday life.",
+      technologies: ["React", "Node.js", "MongoDB", "Mapbox"],
+      links: {
+        website: "https://velune.sites.repaint.com/",
+        source: ""
+      },
+      thumbnail: "/projects/velune.png"
+    },
+    {
       title: "DailyArc",
       date: "2025",
       description: "A C#-based project tracking system designed to manage tasks, issues, and workflows in a structured backlog. The application focuses on organizing work items, tracking progress, assigning priorities, and improving team visibility throughout the development lifecycle.",
