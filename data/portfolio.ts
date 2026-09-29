@@ -15,17 +15,24 @@ export const portfolioData = {
     {
       company: "ChronoStep Inc.",
       role: "Software Engineer",
-      period: "April 2025 - Present",
+      period: "Feb 2026 - Present",
       logo: "/company-logos/chronostep-logo.png",
       location: "Cebu City, Cebu"
     },
     {
-      company: "Passerelles Numeriques Philippines",
-      role: "Web Developer",
-      period: "May 2025 - Aug 2025",
-      logo: "/company-logos/pn-logo.png",
-      location: "Philippines"
+      company: "ChronoStep Inc.",
+      role: "Backend Developer Intern",
+      period: "June 2025 - Jan 2026",
+      logo: "/company-logos/chronostep-logo.png",
+      location: "Cebu City, Cebu"
     },
+    // {
+    //   company: "Passerelles Numeriques Philippines",
+    //   role: "Web Developer",
+    //   period: "May 2025 - Aug 2025",
+    //   logo: "/company-logos/pn-logo.png",
+    //   location: "Philippines"
+    // },
     {
       company: "Freelance",
       role: "Freelance Developer",
