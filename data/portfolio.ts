@@ -21,7 +21,7 @@ export const portfolioData = {
     },
     {
       company: "ChronoStep Inc.",
-      role: "Backend Developer Intern",
+      role: "Backend Developer/IT Intern",
       period: "June 2025 - Jan 2026",
       logo: "/company-logos/chronostep-logo.png",
       location: "Cebu City, Cebu"
